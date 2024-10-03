@@ -46,12 +46,12 @@ namespace http
         }
         std::cout << "socket create it successfully" << std::endl;
         while (true)
-        { // accepting new connection
+        {
+            // accepting new connection
             std::cout << "==========waiting req============" << std::endl;
             char buffer[1024] = {0};
-            struct sockaddr_in client_addr;
-            socklen_t clien_addr_len = sizeof(client_addr);
-            int new_socket = accept(socketReturnValue, (struct sockaddr *)&client_addr, &clien_addr_len);
+            socklen_t addr_len = sizeof(address);
+            int new_socket = accept(socketReturnValue, (struct sockaddr *)&address, &addr_len);
             std::cout << new_socket << std::endl;
             if (new_socket < 0)
             {

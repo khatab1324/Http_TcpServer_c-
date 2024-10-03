@@ -1,0 +1,3 @@
+/home/khatab/coding/projects/small_projects/httpServerWithCpp/CMakeFiles/httpServerWithCpp.dir
+/home/khatab/coding/projects/small_projects/httpServerWithCpp/CMakeFiles/edit_cache.dir
+/home/khatab/coding/projects/small_projects/httpServerWithCpp/CMakeFiles/rebuild_cache.dir

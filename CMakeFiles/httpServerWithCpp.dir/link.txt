@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Werror -std=c++14 -g CMakeFiles/httpServerWithCpp.dir/src/http_tcpServer_linux.cpp.o CMakeFiles/httpServerWithCpp.dir/src/main.cpp.o -o httpServerWithCpp 
